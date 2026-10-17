@@ -1,0 +1,21 @@
+[project]
+name = "agentic-ai-by-chitta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "seleniumforchitta", email = "seleniumforchitta@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "openai>=3.33.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+agentic-ai-by-chitta = "agentic_ai_by_chitta:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
